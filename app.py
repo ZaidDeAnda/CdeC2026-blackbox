@@ -22,7 +22,7 @@ tabs = st.tabs(["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"])
 
 tabs[0].subheader("Python crash course part 1")
 
-tabs[0].link_button("Notebook", "https://githubtocolab.com/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-day1.ipynb")
+tabs[0].markdown("[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-day1.ipynb)")
 
 tabs[1].write("WIP")
 
