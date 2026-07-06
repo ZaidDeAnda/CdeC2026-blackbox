@@ -24,7 +24,11 @@ tabs[0].subheader("Python crash course part 1")
 
 tabs[0].markdown("[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-day1.ipynb)")
 
+tabs[1].subheader("Python crash course part 2")
+
 tabs[1].markdown("[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-day2.ipynb)")
+
+tabs[2].subheader("Computer vision")
 
 tabs[2].markdown("[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-computer_vision.ipynb)")
 
