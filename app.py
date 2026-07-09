@@ -48,6 +48,8 @@ tabs[5].markdown(
     by Aurelien Geron
 
     _O'Reilly editorial_
+           
+    Puedes encontrarlo aquí: https://ageron.github.io/
     """)
 )
 
