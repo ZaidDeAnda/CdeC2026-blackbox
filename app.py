@@ -1,4 +1,5 @@
 import streamlit as st
+from textwrap import dedent
 
 st.set_page_config(
     page_title="Clubes de Ciencia",
@@ -8,9 +9,11 @@ st.set_page_config(
 
 st.header("Putting the black box to the test: Can AI diagnose cancer?")
 
-st.write("This page will help us to store all the content that we'll see these days! " \
-"Below you will find tabs with the content of every day, including notebooks and" \
-" slides")
+st.write(
+    "This page will help us to store all the content that we'll see these days! "
+    "Below you will find tabs with the content of every day, including notebooks "
+    "and slides."
+)
 
 st.write("This is the repository where everything will be added, in case you want to save it")
 
@@ -18,7 +21,7 @@ st.link_button("Open in github", "https://github.com/ZaidDeAnda/CdeC2026-blackbo
 
 st.divider()
 
-tabs = st.tabs(["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"])
+tabs = st.tabs(["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Useful resources"])
 
 tabs[0].subheader("Python crash course part 1")
 
@@ -35,3 +38,47 @@ tabs[2].markdown("[![Open In Colab](https://colab.research.google.com/assets/col
 tabs[3].write("WIP")
 
 tabs[4].write("WIP")
+
+tabs[5].header("Books")
+
+tabs[5].markdown(
+    dedent("""
+    ### Hands-On Machine Learning with Scikit-Learn and PyTorch
+
+    by Aurelien Geron
+
+    _O'Reilly editorial_
+    """)
+)
+
+tabs[5].markdown(
+    dedent("""
+    ### Deep Learning with Python
+
+    by Francois Chollet (creator of Keras)
+
+    _Anaya editorial_
+    """)
+)
+
+tabs[5].subheader("Videos")
+
+tabs[5].markdown(
+    dedent("""
+    ### 3Blue1Brown
+
+    https://www.youtube.com/c/3blue1brown
+
+    Amazing videos about math.
+    """)
+)
+
+tabs[5].markdown(
+    dedent("""
+    ### CodigoFacilito
+
+    https://codigofacilito.com/cursos
+
+    Useful platform for code courses.
+    """)
+)
