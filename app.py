@@ -41,7 +41,9 @@ tabs[3].subheader("Perceptrones and neural networks")
 
 tabs[3].markdown("[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-neural_networks.ipynb)")
 
-tabs[4].write("WIP")
+tabs[4].subheader("Convolutional neural networks")
+
+tabs[4].markdown("[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZaidDeAnda/CdeC2026-blackbox/blob/main/notebooks/python-convolutional_neural_networks.ipynb)")
 
 tabs[5].header("Books")
 
